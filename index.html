@@ -4,219 +4,268 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="index.css">
-        <title>Potofolio - Assignment 2</title>
+        <!-- <link rel="stylesheet" href="index.css"> -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Potofolio - Assignment 3</title>
     </head>
-    <body>
-        <!-- Header -->
-        <header>
-            <nav>
-                <section class="wrapper">
-                    <section class="logo">
-                        <img
-                            src="https://th.bing.com/th/id/OIP.N4DIo5Z8BBFDdMxq1WAASAAAAA?w=129&h=180&c=7&r=0&o=5&pid=1.7">
+    <body class="p-0 m-0">
+        <main class="">
+            <!-- Header -->
+            <header>
+                <nav class="flow-root sticky w-25 m-auto bg-black leading-12 top-0">
+                    <section class="w-5/5 h-auto relative mb-12">
+                        <section class="float-left p-4 inline-flex">
+                            <img
+                                class="rounded-3xl w-5 h-5"
+                                src="https://th.bing.com/th/id/OIP.N4DIo5Z8BBFDdMxq1WAASAAAAA?w=129&h=180&c=7&r=0&o=5&pid=1.7">
 
-                        <a href=''>FARIS FIRDAUS ARIPUTRA</a>
+                            <a
+                                class="pl-2 text-xs font-extrabold text-white no-underline hover:underline"
+                                href=''>FARIS FIRDAUS ARIPUTRA</a>
+                        </section>
+
+                        <section class="float-right">
+                            <ul
+                                class="list-none p-4 text-white font-bold text-left no-underline inline-flex ">
+                                <li class="hover:underline pr-2">
+                                    <a href="#about" target="">About</a>
+                                </li>
+                                <li class="hover:underline pr-2">
+                                    <a href="#exp" target="">Experience</a>
+                                </li>
+                                <li class="hover:underline pr-2">
+                                    <a href="#cont" target="">Contact</a>
+                                </li>
+                            </ul>
+                        </section>
                     </section>
+                </nav>
 
-                    <section class="menu">
-                        <ul>
-                            <li>
-                                <a href="#about" target="">About</a>
-                            </li>
-                            <li>
-                                <a href="#exp" target="">Experience</a>
-                            </li>
-                            <li>
-                                <a href="#cont" target="">Contact</a>
-                            </li>
-                        </ul>
+                <nav class="flex justify-start sticky w-25 m-auto bg-black leading-12 top-0">
+                    <section class="w-5/5 h-auto relative mb-12">
+                        <article class="float-left pl-40 pt-20 text-white">
+                            <article class="inline-flex pb-3">
+                                <img
+                                    class="rounded-xl w-4 h-4"
+                                    src="https://e7.pngegg.com/pngimages/16/339/png-clipart-map-luanda-symbol-rolleston-location-icon-flag-heart.png"
+                                    alt="">
+
+                                <p class="pl-2">Depok, Indonesia</p>
+                            </article>
+
+                            <h1 class="text-3xl font-bold">Hello,</h1>
+                            <h1 class="text-3xl font-bold">I'm Faris Firdaus Ariputra</h1>
+
+                            <p class="pt-3 pb-3">Disini saya akan membuat tugas html-css-assignment-3-v2
+                                tentang pembuatan Portofolio menggunakan HTML.</p>
+
+                            <img
+                                class="rounded-xl w-4 h-4 inline-flex"
+                                src="https://www.pine64.org/wp-content/uploads/2019/04/github-logo.jpg">
+                            <a
+                                class="hover:underline"
+                                href="https://github.com/Farisfirdaus"
+                                target="_blank">Github</a>
+
+                            <img
+                                class="rounded-xl w-4 h-4 inline-flex"
+                                src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-logo-png-transparent.png">
+                            <a
+                                class="hover:underline"
+                                href="https://www.linkedin.com/in/faris-firdaus-ariputra-1b0627247/"
+                                target="_blank">LinkedIn</a><br/>
+                        </article>
                     </section>
-                </section>
-            </nav>
+                </nav>
+            </header>
 
-            <nav>
-                <section class="wrapper">
-                    <article class="header1">
-                        <img
-                            src="https://e7.pngegg.com/pngimages/16/339/png-clipart-map-luanda-symbol-rolleston-location-icon-flag-heart.png"
-                            alt="">
-                        Depok, Indonesia
+            <!-- About Me -->
+            <section id="about" class="m-auto flex justify-start mb-12 p-7">
+                <section class="m-13">
+                    <p class="text-5xl font-bold mb-7">
+                        About Me
+                    </p>
 
-                        <h1>Hello,</h1>
-                        <h1>I'm Faris Firdaus Ariputra</h1>
+                    <p class="text-justify mb-5">Saya berasal dari Universitas Bina Sarana
+                        Informatika. Saya mempunyai cita-cita menjadi seorang Programmer yang menguasai
+                        berbagai macam bahasa pemrograman. Berawal dari saya mencoba aplikasi Termux di
+                        gadget hingga sampai saat ini saya sangat penasaran dengan berbagai macam bahasa
+                        pemrograman yang digunakan oleh para Dev. Karena menurut saya menjadi seorang
+                        Programmer itu sangat menyenangkan.</p>
 
-                        <p>Disini saya akan membuat tugas html-css-assignment-2-v3 tentang pembuatan
-                            Portofolio menggunakan HTML.</p>
+                    <p>Hobi saya adalah :</p>
+                    <ul class="list-disc ml-5 mb-3">
+                        <li>Membaca Buku.</li>
+                        <li>Bermain Game.</li>
+                        <li>Bermain Gitar.</li>
+                    </ul>
 
-                        <img width="15" src="https://pngimg.com/uploads/github/github_PNG40.png">
-                        <a href="https://github.com/Farisfirdaus" target="_blank">Github</a>
-
-                        <img
-                            src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-logo-png-transparent.png">
-                        <a
-                            href="https://www.linkedin.com/in/faris-firdaus-ariputra-1b0627247/"
-                            target="_blank">LinkedIn</a><br/>
-                    </article>
-
-                    <article class="header2">
-                        <img src="1.jpg">
-                        <article></section>
-                    </nav>
-                </header>
-
-                <!-- About Me -->
-                <section id="about">
-                    <section class="kolom">
-                        <p class="deskripsi">
-                            About Me
-                        </p>
-
-                        <p>Saya berasal dari Universitas Bina Sarana Informatika. Saya mempunyai
-                            cita-cita menjadi seorang Programmer yang menguasai berbagai macam bahasa
-                            pemrograman. Berawal dari saya mencoba aplikasi Termux di gadget hingga sampai
-                            saat ini saya sangat penasaran dengan berbagai macam bahasa pemrograman yang
-                            digunakan oleh para Dev. Karena menurut saya menjadi seorang Programmer itu
-                            sangat menyenangkan.</p>
-
-                        <p>Hobi saya adalah :</p>
-                        <ul>
-                            <li>Membaca Buku.</li>
-                            <li>Bermain Game.</li>
-                            <li>Bermain Gitar.</li>
-                        </ul>
-
-                        <p>Skill yang saya kuasai adalah :</p>
-                        <ul>
-                            <li>Menghafal pemrograman dengan cepat.</li>
-                            <li>Menguasai Ms Word, Excel dan Power Point.</li>
-                            <li>Menguasai Canva.</li>
-                            <li>Menguasai Bahasa Pemrograman HTML dan CSS.</li>
-                        </ul>
-
-                        <img width="15" src="https://pngimg.com/uploads/github/github_PNG40.png">
-                        <a href="https://github.com/Farisfirdaus" target="_blank">Github</a>
-
-                        <img
-                            src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-logo-png-transparent.png">
-                        <a
-                            href="https://www.linkedin.com/in/faris-firdaus-ariputra-1b0627247/"
-                            target="_blank">LinkedIn</a>
-                    </section>
-
-                    <section class="header3">
-                        <img src="2.jpg" alt="">
-
-                        <h5>Januari 2021, Holiday</h5>
-                    </section>
-                </section>
-
-                <!-- Grid -->
-                <h2>Histori Pendidikan</h2>
-
-                <section class="grid-container">
-
-                    <div>TAHUN</div>
-                    <div>PENDIDIKAN</div>
-                    <div>2004 - 2010</div>
-                    <div>SD</div>
-                    <div>2010 - 2013</div>
-                    <div>SMP</div>
-                    <div>2013 - 2016</div>
-                    <div>SMA</div>
-                    <div>2020 - ...</div>
-                    <div>...</div>
-                </section>
-
-                <!-- Experience -->
-                <section id="exp">
-                    <section class="header4">
-                        <img
-                            src="https://cdn-2.tstatic.net/tribunnewswiki/foto/bank/images/ruangguru1.jpg"
-                            alt="">
-
-                        <h5>Agustus 2022, Holiday</h5>
-                    </section>
-
-                    <section class="kolom">
-                        <p class="deskripsi">Ruangguru</p>
-
-                        <p>Saya sangat senang dapat bergabung di program Kampus Merdeka dan diterima di
-                            Ruangguru, khususnya di program Backend Engineering. Karena tujuan saya
-                            mengikuti MSIB ini untuk memfokuskan pengetahuan saya khususnya didalam bidang
-                            Frontend maupun di Backend. Semoga dengan mengikuti program ini, saya kedepannya
-                            akan berguna bagi perusahaan-perusahaan besar.</p>
-
-                        <p>Saya juga berharap semoga menjadi salah satu bagian dari orang-orang yang
-                            sukses dan berhasil dimasa depan. Agar semua impian yang saya inginkan selama
-                            ini dapat tercapai.</p>
-
-                        <img width="15" src="https://pngimg.com/uploads/github/github_PNG40.png">
-                        <a href="https://github.com/Farisfirdaus" target="_blank">Github</a>
-
-                        <img
-                            src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-logo-png-transparent.png">
-                        <a
-                            href="https://www.linkedin.com/in/faris-firdaus-ariputra-1b0627247/"
-                            target="_blank">LinkedIn</a>
-                    </section>
-                </section>
-
-                <!-- Contact Me-->
-                <section id="cont">
-                    <nav>
-                        <h1>Contact Me!</h1>
-
-                        <form action="" method="">
-                            <label class="a" for="yname">Your Name :
-                            </label>
-                            <input type="text" id="yname" name="yname"/>
-
-                            <br/>
-
-                            <label class="b" for="yemail">Your Email :
-                            </label>
-                            <input type="text" id="yemail" name="yemail"/>
-
-                            <br/>
-
-                            <label class="c" for="message">Message :
-                            </label>
-                            <textarea id="message" rows="5" cols="20">Tulis pesanmu di sini.</textarea>
-
-                            <br/>
-
-                            <button type="submit">send</button>
-                        </form>
-                    </nav>
-                </section>
-
-                <!-- Footer -->
-                <footer>
-                    <h5>FARIS FIRDAUS ARIPUTRA</h5>
+                    <p>Skill yang saya kuasai adalah :</p>
+                    <ul class="list-disc ml-5 mb-3">
+                        <li>Menghafal pemrograman dengan cepat.</li>
+                        <li>Menguasai Ms Word, Excel dan Power Point.</li>
+                        <li>Menguasai Canva.</li>
+                        <li>Menguasai Bahasa Pemrograman HTML dan CSS.</li>
+                    </ul>
 
                     <img
-                        width="14"
-                        src="https://banner2.kisspng.com/20190417/ftt/kisspng-transparency-portable-network-graphics-clip-art-co-lokasi-file-army-5cb7f59d936174.9762385515555598376037.jpg"
-                        alt="">
-                    Depok, Indonesia<br/>
-                    <br/>
-
-                    <img width="15" src="https://pngimg.com/uploads/github/github_PNG40.png">
-                    <a href="https://github.com/Farisfirdaus" target="_blank">Github</a>
+                        class="rounded-xl w-4 h-4 inline-flex"
+                        src="https://www.pine64.org/wp-content/uploads/2019/04/github-logo.jpg">
+                    <a
+                        class="hover:underline hover:text-blue-700"
+                        href="https://github.com/Farisfirdaus"
+                        target="_blank">Github</a>
 
                     <img
+                        class="rounded-xl w-4 h-4 inline-flex"
                         src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-logo-png-transparent.png">
                     <a
+                        class="hover:underline hover:text-blue-700"
                         href="https://www.linkedin.com/in/faris-firdaus-ariputra-1b0627247/"
-                        target="_blank">LinkedIn</a>
+                        target="_blank">LinkedIn</a><br/>
+                </section>
 
-                    <br/>
+                <section class="float-right pl-5">
+                    <img class="rounded-3xl h-auto w-auto xl:w-72" src="2.jpg" alt="">
 
-                    <p>© 2022.
-                        <b>html-css-assignment-1-v3</b>
-                        All Right Reserved.
-                    </p>
-                </footer>
-            </body>
-        </html>
+                    <h5 class="font-bold text-center">Januari 2021, Holiday</h5>
+                </section>
+            </section>
+
+            <!-- Grid -->
+            <h2 class="text-center font-bold text-3xl">Histori Pendidikan</h2>
+
+            <section class="grid grid-cols-2 gap-0 bg-blue-600 p-0 m-12">
+                <div class="bg-white text-center p-10 m-10">TAHUN</div>
+                <div class="bg-white text-center p-10 m-10">PENDIDIKAN</div>
+                <div class="bg-white text-center p-10 m-10">2004 - 2010</div>
+                <div class="bg-white text-center p-10 m-10">SD</div>
+                <div class="bg-white text-center p-10 m-10">2010 - 2013</div>
+                <div class="bg-white text-center p-10 m-10">SMP</div>
+                <div class="bg-white text-center p-10 m-10">2013 - 2016</div>
+                <div class="bg-white text-center p-10 m-10">SMA</div>
+                <div class="bg-white text-center p-10 m-10">2020 - ...</div>
+                <div class="bg-white text-center p-10 m-10">...</div>
+            </section>
+
+            <!-- Experience -->
+            <section id="exp">
+                <section class="float-left pl-12">
+                    <img
+                        class="rounded-3xl h-60 w-auto"
+                        src="https://cdn-2.tstatic.net/tribunnewswiki/foto/bank/images/ruangguru1.jpg"
+                        alt="">
+
+                    <h5 class="text-center font-bold">Agustus 2022, Holiday</h5>
+                </section>
+
+                <section class="m-12">
+                    <p class="text-5xl font-bold mb-6">Ruangguru</p>
+
+                    <p class="text-justify mb-5">Saya sangat senang dapat bergabung di program
+                        Kampus Merdeka dan diterima di Ruangguru, khususnya di program Backend
+                        Engineering. Karena tujuan saya mengikuti MSIB ini untuk memfokuskan pengetahuan
+                        saya khususnya didalam bidang Frontend maupun di Backend. Semoga dengan
+                        mengikuti program ini, saya kedepannya akan berguna bagi perusahaan-perusahaan
+                        besar.</p>
+
+                    <p class="text-justify mb-5">Saya juga berharap semoga menjadi salah satu bagian
+                        dari orang-orang yang sukses dan berhasil dimasa depan. Agar semua impian yang
+                        saya inginkan selama ini dapat tercapai.</p>
+
+                    <img
+                        class="rounded-xl w-4 h-4 inline-flex"
+                        src="https://www.pine64.org/wp-content/uploads/2019/04/github-logo.jpg">
+                    <a
+                        class="hover:underline hover:text-blue-700"
+                        href="https://github.com/Farisfirdaus"
+                        target="_blank">Github</a>
+
+                    <img
+                        class="rounded-xl w-4 h-4 inline-flex"
+                        src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-logo-png-transparent.png">
+                    <a
+                        class="hover:underline hover:text-blue-700"
+                        href="https://www.linkedin.com/in/faris-firdaus-ariputra-1b0627247/"
+                        target="_blank">LinkedIn</a><br/>
+                </section>
+            </section>
+
+            <!-- Contact Me-->
+            <section id="cont">
+                <nav class="flow-root sticky w-30 m-auto bg-black p-2 leading-12 top-0">
+                    <h1 class="mb-12 mr-25 text-white text-4xl font-bold m-4">Contact Me!</h1>
+
+                    <form class="font-bold mr-7" action="" method="">
+                        <label class="m-7 mr-auto text-white" for="yname">Your Name :
+                        </label>
+                        <input
+                            class="border-dashed text-white bg-blue-800"
+                            type="text"
+                            id="yname"
+                            name="yname"/>
+
+                        <br/>
+
+                        <label class="m-7 mr-auto text-white mt-5 mb-5" for="yemail">Your Email :
+                        </label>
+                        <input
+                            class="border-dashed text-white bg-blue-800 mt-5 mb-5"
+                            type="text"
+                            id="yemail"
+                            name="yemail"/>
+
+                        <br/>
+
+                        <label class="m-7 mr-auto text-white mb-5" for="message">Message :
+                        </label>
+                        <textarea class="ml-5" id="message" rows="3" cols="25">Tulis pesanmu di sini.</textarea>
+
+                        <button
+                            class="mb-2 ml-5 text-sm p-2 m-3 bg-blue-800 hover:bg-red-800 hover:text-white"
+                            type="submit">send</button>
+                    </form>
+                </nav>
+            </section>
+
+            <!-- Footer -->
+            <footer class="m-6">
+                <h5 class="mb-4 font-bold">FARIS FIRDAUS ARIPUTRA</h5>
+
+                <article class="inline-flex pb-3">
+                    <img
+                        class="rounded-xl w-4 h-4"
+                        src="https://e7.pngegg.com/pngimages/16/339/png-clipart-map-luanda-symbol-rolleston-location-icon-flag-heart.png"
+                        alt="">
+
+                    <p class="pl-2">Depok, Indonesia</p>
+                </article>
+
+                <br/>
+
+                <img
+                    class="ml-2 rounded-xl w-4 h-4 inline-flex"
+                    src="https://www.pine64.org/wp-content/uploads/2019/04/github-logo.jpg">
+                <a
+                    class="hover:underline hover:text-blue-700"
+                    href="https://github.com/Farisfirdaus"
+                    target="_blank">Github</a>
+
+                <img
+                    class="ml-2 rounded-xl w-4 h-4 inline-flex"
+                    src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-logo-png-transparent.png">
+                <a
+                    class="hover:underline hover:text-blue-700"
+                    href="https://www.linkedin.com/in/faris-firdaus-ariputra-1b0627247/"
+                    target="_blank">LinkedIn</a><br/>
+
+                <br/>
+
+                <p class="text-center">© 2022.
+                    <b>html-css-assignment-3-v2</b>
+                    All Right Reserved.
+                </p>
+            </footer>
+        </main>
+    </body>
+</html>

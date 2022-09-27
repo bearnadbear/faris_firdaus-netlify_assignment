@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto auto auto 50px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.logo {
+    float: left;
+    padding-left: 15px;
+}
+
+.logo img {
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+}
+
+.logo a {
+    font-size: 15px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    background: #1d1b1f;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.header1 {
+    float: left;
+    padding-left: 175px;
+    padding-top: 80px;
+    color: white;
+}
+
+.header1 h1 {
+    font-size: 30px;
+}
+
+.header1 img {
+    border-radius: 50px;
+    height: 16px;
+    width: 16px;
+}
+
+.header1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.header2 {
+    float: right;
+    padding-right: 175px;
+    padding-top: 80px;
+}
+
+.header2 img {
+    border-radius: 50px;
+    height: 250px;
+    width: 180px;
+}
+
+#about {
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.kolom img {
+    width: 15px;
+    height: 15px;
+}
+
+.header3 {
+    float: right;
+    padding-right: 50px;
+    padding-top: 150px;
+}
+
+.header3 img {
+    border-radius: 50px;
+    height: 350px;
+    width: auto;
+}
+
+.header3 h5 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    background-color: #0d0d0e;
+    padding: 5px;
+    margin: 50px;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.header4 {
+    float: left;
+    padding-left: 50px;
+}
+
+.header4 img {
+    border-radius: 50px;
+    height: 250px;
+    width: auto;
+}
+
+.header4 h5 {
+    text-align: center;
+}
+
+#cont h1 {
+    margin-bottom: 50px;
+    margin-right: 100px;
+    color: white;
+    font-size: 40px;
+}
+
+form {
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+input {
+    border-style: dashed;
+    color: #ffffff;
+    background-color: rgb(97, 97, 177);
+}
+
+.a {
+    margin: 30px auto 30px 30px;
+    color: wheat;
+}
+
+.b {
+    margin: 30px auto 30px 30px;
+    color: wheat;
+}
+
+.c {
+    margin: 30px auto 30px 30px;
+    color: wheat;
+}
+
+#message {
+    margin-left: 20px;
+}
+
+textarea {
+    border-style: dashed;
+    color: #ffffff;
+    background-color: rgb(97, 97, 177);
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 200px;
+    font-size: small;
+    padding: 10px 25px;
+}
+
+button:hover {
+    background-color: rgb(209, 9, 9);
+    color: #ffffff;
+}
+
+footer {
+    margin: 20px;
+}
+
+footer h5 {
+    margin-bottom: 20px;
+}
+
+footer img {
+    height: 15px;
+    width: 15px;
+}
+
+footer p {
+    text-align: center;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin-top: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+}
